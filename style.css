@@ -1,0 +1,40 @@
+/* Ensure the HTML and body take up the full height of the viewport */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+/* Apply background image to the body */
+body {
+    background-image: url('background.jpg'); /* Make sure this file is in the same directory or adjust the path */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Make the background image fixed */
+}
+
+/* Style for the container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+}
+
+/* Style for the header */
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #f39c12; /* Custom color */
+}
+
+/* Style for the paragraph */
+p {
+    font-size: 1.2rem;
+    color: #ecf0f1; /* Custom color */
+}
